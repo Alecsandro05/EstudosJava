@@ -1,6 +1,6 @@
 package estudo.cursoJava.javacore.introducaoClasses.gModificadorestatico.teste;
 
-import estudo.cursoJava.javacore.introducaoClasses.gModificadorestatico.domain.Carro;
+import estudo.cursoJava.javacore.introducaoClasses.gModificadorestatico.dominio.Carro;
 
 public class CarroTeste01 {
     public static void main(String[] args) {

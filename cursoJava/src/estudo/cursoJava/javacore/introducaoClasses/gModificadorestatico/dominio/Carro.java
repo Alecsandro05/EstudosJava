@@ -1,4 +1,4 @@
-package estudo.cursoJava.javacore.introducaoClasses.gModificadorestatico.domain;
+package estudo.cursoJava.javacore.introducaoClasses.gModificadorestatico.dominio;
 
 public class Carro {
     private  String nome;
