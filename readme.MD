@@ -19,7 +19,8 @@
  - São os tipos básicos de dados que Java oferece. Eles armazenam valores simples e não são objetos.
 # Tipos de Variáveis em Java
 
-| Tipo         | Tamanho (bits) | Valor Padrão     | Faixa de Valores                            | Exemplos de Uso             |
+
+| Tipo         | Tamanho (byte) | Valor Padrão     | Faixa de Valores                            | Exemplos de Uso             |
 |--------------|----------------|------------------|---------------------------------------------|-----------------------------|
 | `byte`       | 8              | `0`              | -128 a 127                                  | Controle de memória em massa|
 | `short`      | 16             | `0`              | -32.768 a 32.767                            | Sistemas embarcados         |
