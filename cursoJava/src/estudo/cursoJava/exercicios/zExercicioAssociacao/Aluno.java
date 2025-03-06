@@ -1,9 +1,11 @@
 package estudo.cursoJava.exercicios.zExercicioAssociacao;
 
+import java.util.Arrays;
+
 public class Aluno {
     private String nome;
     private int idade;
-    private Seminario seminario;
+    private Seminario[] seminarios;
     public Aluno(String nome, int idade) {
         this.nome = nome;
         this.idade = idade;
@@ -24,4 +26,15 @@ public class Aluno {
     public void setIdade(int idade) {
         this.idade = idade;
     }
+
+    public Seminario[] getSeminario() {
+        return seminarios;
+    }
+
+    public void setSeminarios(Seminario[] seminarios) {
+        this.seminarios = seminarios;
+    }
+
+
+
 }

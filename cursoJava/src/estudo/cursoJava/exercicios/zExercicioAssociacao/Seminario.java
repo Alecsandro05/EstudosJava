@@ -1,5 +1,7 @@
 package estudo.cursoJava.exercicios.zExercicioAssociacao;
 
+import java.util.Arrays;
+
 public class Seminario {
     private String titulo;
     private Aluno[] alunos;
@@ -11,8 +13,10 @@ public class Seminario {
         this.local = local;
     }
 
+    public Seminario(String titulo) {
+        this.titulo = titulo;
 
-
+    }
     public Seminario(String titulo, Aluno[] alunos, Local local) {
         this.titulo = titulo;
         this.alunos = alunos;
@@ -43,5 +47,12 @@ public class Seminario {
         this.titulo = titulo;
     }
 
-
+    @Override
+    public String toString() {
+        return "Seminario{" +
+                "titulo='" + titulo + '\'' +
+                ", alunos=" + Arrays.toString(alunos) +
+                ", local=" + local +
+                '}';
+    }
 }
