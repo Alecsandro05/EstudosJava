@@ -1,0 +1,21 @@
+Crie um sistema para veículos, com a seguinte estrutura:
+Classe mãe: Veiculo
+
+Atributos:
+marca
+modelo
+ano
+Método:
+exibirDados() → exibe os dados básicos do veículo.
+Subclasses:
+
+Carro
+Atributo extra: quantidadeDePortas
+Sobrescreve o método exibirDados() para incluir a quantidade de portas.
+Moto
+Atributo extra: cilindrada
+Sobrescreve o método exibirDados() para incluir a cilindrada.
+No main():
+
+Crie 1 objeto de cada classe (Carro e Moto).
+Exiba os dados de cada um.

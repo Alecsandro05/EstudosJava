@@ -1,0 +1,8 @@
+1. Crie uma classe Animal e duas subclasses: Cachorro e Gato.
+2.Adicione um método fazerSom() para cada um.
+
+O que aprendemos com esse exercício?
+✔ Herança: Cachorro e Gato herdam de Animal.
+✔ Polimorfismo: Mesmo método (fazerSom()) com comportamentos diferentes.
+✔ Sobrescrita de métodos (@Override): Modificamos o comportamento da classe mãe nas filhas.
+✔ Organização do código: Facilitamos a manutenção e extensibilidade.
